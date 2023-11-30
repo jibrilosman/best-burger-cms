@@ -12,7 +12,7 @@ const Home = () => {
         </div>{/* /.col */}
         <div className="col-sm-6">
           <ol className="breadcrumb float-sm-right">
-            <li className="breadcrumb-item"><a href="#">Home</a></li>
+            <li className="breadcrumb-item"><a href={undefined}>Home</a></li>
             <li className="breadcrumb-item active">Dashboard v2</li>
           </ol>
         </div>{/* /.col */}
@@ -94,11 +94,11 @@ const Home = () => {
                     <i className="fas fa-wrench" />
                   </button>
                   <div className="dropdown-menu dropdown-menu-right" role="menu">
-                    <a href="#" className="dropdown-item">Action</a>
-                    <a href="#" className="dropdown-item">Another action</a>
-                    <a href="#" className="dropdown-item">Something else here</a>
+                    <a href={undefined} className="dropdown-item">Action</a>
+                    <a href={undefined} className="dropdown-item">Another action</a>
+                    <a href={undefined} className="dropdown-item">Something else here</a>
                     <a className="dropdown-divider" />
-                    <a href="#" className="dropdown-item">Separated link</a>
+                    <a href={undefined} className="dropdown-item">Separated link</a>
                   </div>
                 </div>
                 <button type="button" className="btn btn-tool" data-card-widget="remove">
@@ -346,7 +346,7 @@ const Home = () => {
                   <div className="direct-chat-contacts">
                     <ul className="contacts-list">
                       <li>
-                        <a href="#">
+                        <a href={undefined}>
                           <img className="contacts-list-img" src="dist/img/user1-128x128.jpg" />
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
@@ -360,7 +360,7 @@ const Home = () => {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
+                        <a href={undefined}>
                           <img className="contacts-list-img" src="dist/img/user7-128x128.jpg" />
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
@@ -374,7 +374,7 @@ const Home = () => {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
+                        <a href={undefined}>
                           <img className="contacts-list-img" src="dist/img/user3-128x128.jpg" />
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
@@ -388,7 +388,7 @@ const Home = () => {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
+                        <a href={undefined}>
                           <img className="contacts-list-img" src="dist/img/user5-128x128.jpg" />
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
@@ -402,7 +402,7 @@ const Home = () => {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
+                        <a href={undefined}>
                           <img className="contacts-list-img" src="dist/img/user6-128x128.jpg" />
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
@@ -416,7 +416,7 @@ const Home = () => {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
+                        <a href={undefined}>
                           <img className="contacts-list-img" src="dist/img/user8-128x128.jpg" />
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
@@ -468,42 +468,42 @@ const Home = () => {
                   <ul className="users-list clearfix">
                     <li>
                       <img src="dist/img/user1-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Alexander Pierce</a>
+                      <a className="users-list-name" href={undefined}>Alexander Pierce</a>
                       <span className="users-list-date">Today</span>
                     </li>
                     <li>
                       <img src="dist/img/user8-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Norman</a>
+                      <a className="users-list-name" href={undefined}>Norman</a>
                       <span className="users-list-date">Yesterday</span>
                     </li>
                     <li>
                       <img src="dist/img/user7-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Jane</a>
+                      <a className="users-list-name" href={undefined}>Jane</a>
                       <span className="users-list-date">12 Jan</span>
                     </li>
                     <li>
                       <img src="dist/img/user6-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">John</a>
+                      <a className="users-list-name" href={undefined}>John</a>
                       <span className="users-list-date">12 Jan</span>
                     </li>
                     <li>
                       <img src="dist/img/user2-160x160.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Alexander</a>
+                      <a className="users-list-name" href={undefined}>Alexander</a>
                       <span className="users-list-date">13 Jan</span>
                     </li>
                     <li>
                       <img src="dist/img/user5-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Sarah</a>
+                      <a className="users-list-name" href={undefined}>Sarah</a>
                       <span className="users-list-date">14 Jan</span>
                     </li>
                     <li>
                       <img src="dist/img/user4-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Nora</a>
+                      <a className="users-list-name" href={undefined}>Nora</a>
                       <span className="users-list-date">15 Jan</span>
                     </li>
                     <li>
                       <img src="dist/img/user3-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Nadia</a>
+                      <a className="users-list-name" href={undefined}>Nadia</a>
                       <span className="users-list-date">15 Jan</span>
                     </li>
                   </ul>
@@ -511,7 +511,7 @@ const Home = () => {
                 </div>
                 {/* /.card-body */}
                 <div className="card-footer text-center">
-                  <a href="javascript::">View All Users</a>
+                  <a href={undefined}>View All Users</a>
                 </div>
                 {/* /.card-footer */}
               </div>
@@ -609,8 +609,8 @@ const Home = () => {
             </div>
             {/* /.card-body */}
             <div className="card-footer clearfix">
-              <a href="javascript:void(0)" className="btn btn-sm btn-info float-left">Place New Order</a>
-              <a href="javascript:void(0)" className="btn btn-sm btn-secondary float-right">View All Orders</a>
+              <a href={undefined} className="btn btn-sm btn-info float-left">Place New Order</a>
+              <a href={undefined} className="btn btn-sm btn-secondary float-right">View All Orders</a>
             </div>
             {/* /.card-footer */}
           </div>
@@ -693,7 +693,7 @@ const Home = () => {
             <div className="card-footer bg-white p-0">
               <ul className="nav nav-pills flex-column">
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <a href={undefined} className="nav-link">
                     United States of America
                     <span className="float-right text-danger">
                       <i className="fas fa-arrow-down text-sm" />
@@ -701,7 +701,7 @@ const Home = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <a href={undefined} className="nav-link">
                     India
                     <span className="float-right text-success">
                       <i className="fas fa-arrow-up text-sm" /> 4%
@@ -709,7 +709,7 @@ const Home = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <a href={undefined} className="nav-link">
                     China
                     <span className="float-right text-warning">
                       <i className="fas fa-arrow-left text-sm" /> 0%
@@ -742,7 +742,7 @@ const Home = () => {
                     <img src="dist/img/default-150x150.png" alt="Product Image" className="img-size-50" />
                   </div>
                   <div className="product-info">
-                    <a href="javascript:void(0)" className="product-title">Samsung TV
+                    <a href={undefined} className="product-title">Samsung TV
                       <span className="badge badge-warning float-right">$1800</span></a>
                     <span className="product-description">
                       Samsung 32" 1080p 60Hz LED Smart HDTV.
@@ -755,7 +755,7 @@ const Home = () => {
                     <img src="dist/img/default-150x150.png" alt="Product Image" className="img-size-50" />
                   </div>
                   <div className="product-info">
-                    <a href="javascript:void(0)" className="product-title">Bicycle
+                    <a href={undefined} className="product-title">Bicycle
                       <span className="badge badge-info float-right">$700</span></a>
                     <span className="product-description">
                       26" Mongoose Dolomite Men's 7-speed, Navy Blue.
@@ -768,7 +768,7 @@ const Home = () => {
                     <img src="dist/img/default-150x150.png" alt="Product Image" className="img-size-50" />
                   </div>
                   <div className="product-info">
-                    <a href="javascript:void(0)" className="product-title">
+                    <a href={undefined} className="product-title">
                       Xbox One <span className="badge badge-danger float-right">
                         $350
                       </span>
@@ -784,7 +784,7 @@ const Home = () => {
                     <img src="dist/img/default-150x150.png" alt="Product Image" className="img-size-50" />
                   </div>
                   <div className="product-info">
-                    <a href="javascript:void(0)" className="product-title">PlayStation 4
+                    <a href={undefined} className="product-title">PlayStation 4
                       <span className="badge badge-success float-right">$399</span></a>
                     <span className="product-description">
                       PlayStation 4 500GB Console (PS4)
@@ -796,7 +796,7 @@ const Home = () => {
             </div>
             {/* /.card-body */}
             <div className="card-footer text-center">
-              <a href="javascript:void(0)" className="uppercase">View All Products</a>
+              <a href={undefined} className="uppercase">View All Products</a>
             </div>
             {/* /.card-footer */}
           </div>
